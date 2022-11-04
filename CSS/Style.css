@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Public+Sans&family=Roboto&display=swap');
+
+* {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    color: hsl(233, 8%, 62%);
+}
+
+h1 {
+    color: hsl(233, 26%, 24%);
+}
+
+.hamb {
+    display: none;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.logo {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.boton {
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+}
+
+.contain ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+
+form button {
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 30px;
+    background-image: url(../IMG/bg\ boton.png);
+    color: white;
+}
+
+.baner {
+    overflow: hidden;
+    background-image: url(../IMG/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    height: 800px;
+    justify-content: flex-start;
+    background-position: 900px -300px;
+    position: relative;
+}
+
+.bg-celular {
+    position: absolute;
+    left: 67%;
+    top: -13%;
+    background-size: contain;
+}
+
+.titulo {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.titulo h1 {
+    width: 433px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+
+.titulo p {
+    width: 337px;
+    height: 88px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.baner form {
+    margin-top: 10px;
+}
+
+.mid-main {
+    margin-left: 100px;
+}
+
+.mid-main h2 {
+    color: hsl(233, 26%, 24%);
+    font-size: 40px;
+}
+
+.cards {
+    margin-left: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    padding: 15px;
+    text-align: justify;
+}
+
+.card p {
+    width: 337px;
+    height: 88px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.titulo-recurso {
+    margin-left: 100px;
+    font-size: 40px;
+    color: hsl(233, 26%, 24%);
+}
+
+.recursos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.recursos a h4 {
+    color: hsl(233, 26%, 24%);
+}
+
+.recurso {
+    margin-bottom: 10%;
+    height: 312px;
+    width: 265px;
+}
+
+.recurso img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.texto {
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    background-color: hsl(233, 26%, 24%);
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer img {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.redes i {
+    color: white;
+    margin: 5px;
+}
+
+.redes {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 310px;
+}
+
+.nav li {
+    margin: 14px;
+}
+
+footer form {
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+.open{
+    display: flex;
+}
+
+.redes a i:hover {
+    color: hsl(192, 70%, 51%);
+}
+
+.nav a:hover {
+    color: hsl(192, 70%, 51%);
+}
+
+.recursos a h4:hover {
+    color: hsl(192, 70%, 51%);
+}
+
+.menu {
+    margin: 15px;
+}
+
+.menu a:hover {
+    color: hsl(233, 26%, 24%);
+}
+
+@media (max-width: 375px) {
+    .menu {
+        display: none;
+    }
+
+    header .boton {
+        display: none;
+    }
+
+    .hamb {
+        margin-top: 30px;
+        margin-left: 90%;
+        position: absolute;
+        display: inline-block;
+    }
+
+    .logo {
+        margin-top: 30px;
+    }
+
+    /* .logo {
+      margin-bottom: 20px;
+    } */
+}
+
+### Primario - Dark Blue: hsl(233, 26%, 24%) - Lime Green: hsl(136, 65%, 51%) - Bright Cyan: hsl(192, 70%, 51%) ### Neutros - Grayish Blue: hsl(233, 8%, 62%) - Light Grayish Blue: hsl(220, 16%, 96%) - Very Light Gray: hsl(0, 0%, 98%) - White: hsl(0, 0%, 100%)
